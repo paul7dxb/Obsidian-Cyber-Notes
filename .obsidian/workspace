@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Y - Walkthroughs/THM/Jurassic Park.md",
+            "file": "ZZ - Obsidian stuff/Obsidian Git.md",
             "mode": "source",
             "source": false
           }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - Walkthroughs/THM/Jurassic Park.md",
+                "file": "ZZ - Obsidian stuff/Obsidian Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Languages/SQL/MySQL.md",
     "Y - Walkthroughs/THM/Jurassic Park.md",
     "Z Theory/Red Team.md",
+    "Protocols/Samba.md",
+    "Protocols/FTP.md",
+    "Languages/SQL/MySQL.md",
     "1. Discovery/Web/WFUZZ.md",
     "Y - Walkthroughs/THM/Corridor.md",
     "Tools/Hashcat.md",
     "1. Discovery/nmap.md",
-    "Y - Walkthroughs/THM/Minion.md",
-    "Languages/PowerShell/Commands.md",
-    "1. Discovery/Web/GoBuster.md"
+    "Y - Walkthroughs/THM/Minion.md"
   ]
 }
