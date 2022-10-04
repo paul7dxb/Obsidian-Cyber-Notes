@@ -180,7 +180,7 @@ One line that stands out is define( 'DB_PASSWORD', 'SuperDuperStrongPasswordThat
 ![[../Z - Walkthrough Images/Minion/Pasted image 20220923075130.png]]
 
 
-# 4 Priv esc
+# 4 Privilege Escalation
 
 After not finding any SUID files or cron jobs in /etc/crontab to use for priviliege escalation I decided to try and move across to the minion user hoping that the password we found on the wordpress site had been reused
 Command:

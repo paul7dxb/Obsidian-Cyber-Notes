@@ -15,6 +15,10 @@ gobuster dir -u http://$TGT:3333 -w /usr/share/seclists/Discovery/Web-Content/di
 `-p <x>`: proxy to use
 `-c <http cookies>`:	Specify a cookie for simulating your auth
 -t: threads
+-o: output file
+-s: positive status codes
+-b: blacklist codes
+
 
 ### Error non existing URL's
 Occurs when bad URL's get redirected to an actual page
@@ -26,6 +30,11 @@ gobuster dir -u $URL -w /usr/share/seclists/Discovery/Web-Content/directory-list
 ## File types
 ```
 -x php,txt,html,cms
+```
+
+### Blacklist / Whitelist
+```bash
+gobuster dir -u http://$TGT -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -x php -s 200 -b 301,404,401 -o goBusterSeclists
 ```
 
 ## Worldlists

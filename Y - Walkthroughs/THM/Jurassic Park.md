@@ -175,7 +175,6 @@ Now that we have two passwords we can try to logon to the system using SSH and t
 
 IMAGE SSH FLAG 1
 
-
 I ran a find command using the parameter -iname to make the search **case insensitive** picking up the next challenge flag
 
 ```bash
@@ -200,23 +199,29 @@ sudo scp -S $TF x y:
 
 IMAGE PRIV ESC ROOT
 
-Run find command again
+I then ran the same `find` command again to look for flags 3 and 5. This only recovered flag 5 in /root
 
 IMAGE SSH FLAG 5
 
-So where is flag 3?
+**So where was flag 3?**
 
-Went back to Dennis 
+It appears that flag 3 is not named in the same way as the other flags. So my next approach was to seach for flag and then flag3 in the contents of the files
 
-```bash
-cd /home
-find . -type f -exec grep -l "flag" {} \;
-```
+Searching from the root directory took too long so I chose subfolders eventually finding some interesting files in /home
 
 ```bash
-cd /home
-find . -type f -exec grep -l "flag3" {} \;
+find /home -type f -exec grep -l "flag" {} \;
 ```
+
+IMAGE FIND HOME
+
+Looking through the contents of these files I evenutally found the flag in /home/dennis/.bash_history
+
+IMAGE BASH HISTORY
 
 # TLDR
-- 
+- Go to webpage
+- Find item.php page
+- Use IDOR to discover SQL filters
+- Use SQL injection on the item.php page to recover database info and Dennis' passoword
+- Use GTFO bins sudo scp to escalate to root shell
