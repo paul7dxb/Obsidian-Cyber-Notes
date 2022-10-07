@@ -1,5 +1,4 @@
-# AD Basics
-## AD Objects
+# AD Objects
 Users are one of the objects known as security principles
 - Can be authenticated by the domain and assigned privileges
 
@@ -21,7 +20,7 @@ Machines
 |Domain Computers|Includes all existing computers in the domain.
 |Domain Controllers|Includes all existing DCs on the domain.
 
-## Group Policy Objects GPOs
+# Group Policy Objects GPOs
 
 GPOs are distributed to the network via a network share called `SYSVOL`, which is stored in the DC. All users in a domain should typically have access to this share over the network to sync their GPOs periodically. The SYSVOL share points by default to the `C:\Windows\SYSVOL\sysvol\` directory on each of the DCs in our network.
 
@@ -43,7 +42,7 @@ Control Panel access
 User Configuration -> Policies -> Administrative Templates -> Hide specified Control Panel items
 
 
-## Authentication
+# Authentication
 
 -   **Kerberos:** Used by any recent version of Windows. This is the default protocol in any recent domain.
 -   **NetNTLM:** Legacy authentication protocol kept for compatibility purposes.
@@ -158,13 +157,26 @@ Default Security groups
 
 
 # Trusts
+Trusts outline the way that the domains inside of a forest communicate to each other, in some environments trusts can be extended out to external domains and even forests in some cases.
+
+-   Directional - The direction of the trust flows from a trusting domain to a trusted domain
+-   Transitive - The trust relationship expands beyond just two domains to include other trusted domains
 ![](../ZZ%20-%20Pasted%20Images/Pasted%20image%2020221007072915.png)
+# Policies
+Policies dictate how the server operates and what rules it will and will not follow.
 # Domain Controller
 ## Active Directory Data Store
 holds the databases and processes needed to store and manage directory information such as users, groups, and services.
 -   Contains the NTDS.dit - a database that contains all of the information of an Active Directory domain controller as well as password hashes for domain users
 -   Stored by default in %SystemRoot%\NTDS
 -   accessible only by the domain controller
+
+# Domain Services
+Default domain services: 
+
+-   LDAP - Lightweight Directory Access Protocol; provides communication between applications and directory services
+-   Certificate Services - allows the domain controller to create, validate, and revoke public key certificates
+-   DNS, LLMNR, NBT-NS - Domain Name Services for identifying IP hostnames
 # Breaching AD
 
 -   NTLM Authenticated Services
@@ -175,3 +187,14 @@ holds the databases and processes needed to store and manage directory informati
 
 ###  NTLM Authenticated Services
 New Technology LAN Manager (NTLM)
+# Cloud AD
+Azure acts as the middle man between your physical Active Directory and your users' sign on. This allows for a more secure transaction between domains, making a lot of Active Directory attacks ineffective.
+
+|**Windows Server AD**|**Azure AD**|
+|---|---|
+|LDAP|Rest APIs
+|NTLM|OAuth/SAML
+|Kerberos|OpenID
+|OU Tree|Flat Structure
+|Domains and Forests|Tenants
+|Trusts|Guests
