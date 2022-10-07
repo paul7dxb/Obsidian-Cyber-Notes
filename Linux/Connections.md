@@ -1,5 +1,12 @@
-### RDP
-`xfreerdp -v:10.10.4.182 /cert:ignore /u:jack`
+### RDP with xfreerdp
+```bash
+xfreerdp -v:10.10.4.182 /cert:ignore /u:jack
+```
+
+Login with password to THM domain
+```bash
+xfreerdp -v:10.10.150.211 /cert:ignore /u:THM\\Administrator /p:Password321
+```
 
 ### NetCat
 Netcat:

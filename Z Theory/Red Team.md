@@ -180,7 +180,7 @@ The OPSEC process has five steps:
 4.  Assess risks
 5.  Apply appropriate countermeasures
 
-## Critial Information
+## Critical Information
 - In terms of red team it is the info that if the blue team were to obtain it, would hinder or degrade the red team's mission
 - jeopardises your plans if leaked to an adversary
 - Could include:
