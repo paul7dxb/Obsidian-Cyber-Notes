@@ -1,0 +1,304 @@
+# Analyzing Application & Network Security
+## injection attacks
+- RAT - Remote access trojan
+- Malware can inject MAC or IP
+- DLL injection
+- SQLi
+- LDAP injection
+	- unsanitised or direct to back end
+- XML injection / SOAP
+
+## Targeted Coding Attacks
+- Pointer / object dereference
+	- Supply pointer to memory location unexpected
+	- Null reference
+	- Crash or read from unintended postiion
+- Directory traversal
+- Buffer/integer overflow
+	- Larger than expected input. Overwrite adjacent memory
+- Race conditions
+	- Two or more similtaneous things needed to be done specific order
+	- Sync error activities
+- Time of check / Time of use
+	- race condition by racing to resource
+- Improper Error and input handling
+	- Including collision hashes
+- Session replay attack
+	- Stealing valid session id
+
+## API attacks
+Application programming interface
+
+- API calls not digitally signed
+- Login attacks
+	- automated attacks
+- DDOS attacks
+- Leverage credentials
+	- Stolen creds or API keys
+
+## Pass the Hash
+- Windows vulnerability
+	- Dont need PT passwords just the hash
+- Safe mode vulnerabilty
+- VSM defends against this
+
+## Driver Manipulation
+- Shimming
+	- Steaoling info and money from point of sales / ATM
+- Refactoring
+
+## Wireless attacks
+- Evil twins
+	- Rogue access point instead of real one
+	- MITM
+	- honey pot except appear as valid network
+- Disassociation Attacks
+	- DOS attack against infrastrucre
+	- Get client to reauthenticate with your rogue access point
+	- Use MPP todefend against / WPA3
+- MITM
+	- Honeypot
+- Jamming
+- Weak Inititialisation Vector
+	- Easy to crack
+	- WEP
+		- passive attack crack 24 hours
+	- WPA3 dragonfly handshake
+		- dragonblood attack patch
+- Bluejacking
+	- Spoof a name
+- Bluesnarfing
+	- Steal data through bluetooth
+	- Contact/calandar text messagges
+	- discoverable vulnerable
+- RFID / Near Field Communnication
+	- Sniffing , spoofing, replay
+	- cloning
+	- RFID zapping
+	- Relay attacks
+
+## MITM attacks
+- Proxy ARP
+- DHCP spoofing
+- Inject in intended path TCP/UDP
+- Simplex or duplex
+- Man in the browser
+	- trojan used  between browser and libraries
+
+## Layer 2 attacks
+- ARP Poisoning
+	- MITM
+	- Inject false frames
+	- only IPv4
+	- Mitigate:
+		- Port security
+		- DHCP snooping
+		- Cloud provider hypervisor protection
+- MAC flooding
+	- macoff
+	- flood switchport to fill CAM table
+	- DOS
+- MAC cloning
+
+## DNS attacks
+- Domain hijacking / clickjacking
+	- Hijack clicks
+- DNS poisoning
+	- DNS sserver cache
+	- Farming
+	- Redirect to different address
+- Domain repuation attacks
+
+## DDoS
+- DOS
+- Consume networkm resources
+	- CAM table, bandwidth, DHCP lease
+- Simple to conduct
+- DDOS
+	- zombiefied hosts
+
+## Malicious code or sript execution
+- Virus attach to exe
+- Worm self replicating
+- Script virus
+	- Infect other files or part of other code
+
+
+# Threat Actors, Intelligence Sources & Vulnerabilities
+
+## Actors & Threats
+- Threat agents are the persons, systems, techniques that acts to support threat or exploit
+- All malware are exploits nnot all exploits are malware
+- Individual or group
+- APT
+	- Long term
+	- Pre planned with cost benefit
+	- Often state actors
+	- Muli phased polymorphic
+- Human error
+- cognitive threats
+
+## Attributes & Actors
+- Internal or external
+- Structured  
+	- Planned, organised
+	- Persistent
+	- Multi phased
+- Unstructured
+	- Usually accidental
+- Motivation
+- skill set
+- Probablity of action
+
+## Threat Vectors
+- Physical access (removable media)
+	- switches, routers, firewalls
+	- Closets
+- VPN
+- Wireless
+- Enterprise WPA
+- Messaging
+- File transfer access
+- Other connected enterprises
+- Key access (API)
+- Single sign on multi FA
+
+## Threat Intelligence Sources
+- Indicators of Compromise (IOC)
+	- Cyber observable
+	- Forensic aretfact
+	- Registry entry, new files
+	- Meurasble event
+- Vulnerability database
+	- Needs rapid distribution
+	- CVE / MITRE
+- Dark Web
+- OSINT
+	- maltego
+	- theHarvester
+
+## Research Sources
+- Vendor sites
+- Conferences
+- IEEE RFC
+- Industry
+- Social media
+
+## Cloud vs On-Premise Vulnerabilities
+- Cloud
+	- Threat actors likely external
+	- Access keys
+	- Many accounts reduce attack surface
+- On premise
+	- Biggest threat is privileged insider
+	- Access beyond role
+
+## Zero Day Vulnerabilities
+- Malware or exploit
+- zero day when they are discovered
+- When vendor is made aware of exploit's existence
+
+## Weak Configurations
+- Human error biggest vulnerability
+- Better to automate
+- Weak encryption
+- Unsecure protocols
+- Default settings
+- Improperly Configured Users
+	- Least privilege policy
+- Seperate admin accounts
+- Auditing
+	- ISE
+- Shared accounts
+
+## Third Party Risks
+- Vendor Management
+- System integration
+- Lack of vendor support
+- Supply chain security
+	- Manufacture through to delivery to organisation
+- Outsourced code development
+	- Adequate testing
+- Data Storage
+	- Encrypted AES-256 GCM
+	- Access Contor
+
+## Improper Patch Managment
+- Configuration Management Database (CMDB)
+- Configuration Items (CI)
+- Select personnel with rights to test, apply and determine urgency of patches
+
+## Legacy Platforms
+- Data loss, breach and exfiltration
+	- Use of containers
+	- Use of lifecycle
+- Scripts available on old devices
+- IoT devices use old OS and rearely patched
+- DOS vulnerable
+
+# Security Assessment & Pen Testing Techniques
+
+## Threat Hunting
+- Visibilty
+- Analyse
+- Hypothesis
+- Hunt analytic
+- analyse
+- follow up
+- Revise
+
+## Vulnerability Scanning Technology
+- Identifying known and unkown waknesses
+- Intrusive active
+- Passive
+- Unpatched, misconfigured, open  ports
+
+- Ture positive: Found + action taken
+- True Negative: found + no action
+
+- Logs
+- SNMP traps
+- Netflow
+- SIEM Security Information and event managment
+- SOAR
+- NGIPS
+
+CVE
+- Common Vulnerabilites and exposures
+	- ID
+	- Description and reference
+
+CVSS
+- Weigh severity of vulnerability
+- 0-10
+
+## Vulnerability Scanning Tools
+- Nessus
+- OWASP ZAP
+- Burpsuite
+- Network scanning
+	- Rogue IP, AP, DHCP
+	- Ports
+	- Locations
+	- Wireless
+	- Issues and outages
+- Compliance Scanner
+	- Auditing
+	- Checks in configured to agreed standard
+
+## Syslog & SIEM
+- syslog trap
+	- one way
+- Informs
+- UDP 514 or TCP 1468
+- Severity categories
+	- 0 emergency
+	- 1 alert
+	- 2 critical
+	- 3 error
+	- 4 warning
+	- 5 notice
+	- 6 information
+	- 7 Debug
+- Sdouldn't be single point of failure
+- 
