@@ -61,3 +61,8 @@ Mirror entire site
 ```
 wget -m [url]
 ```
+
+## Update
+```bash
+apt update && apt upgrade
+```

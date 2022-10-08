@@ -28,3 +28,14 @@ Flags:
 --safe      Safe mode. Will abort if any user comes back as locked out. Default: FALSE
 -t, --threads int     Threads to use (default 10)
 -v, --verbose         Log failures and errors
+
+### Impacket GETNPUsers.py
+
+**Setup**
+```bash
+sudo git clone https://github.com/SecureAuthCorp/impacket.git /opt/impacket 
+sudo pip3 install -r /opt/impacket/requirements.txt 
+cd /opt/impacket/ 
+sudo pip3 install . 
+sudo python3 setup.py install
+```

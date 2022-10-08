@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Services/Kerberos - 88.md",
+            "file": "Linux/Commands.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Services/Kerberos - 88.md",
+                "file": "Linux/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Windows/Active Directory Theory.md",
     "Services/Kerberos - 88.md",
+    "Windows/Active Directory Theory.md",
     "Protocols/Samba.md",
     "Protocols/SSH.md",
     "Protocols/SMB.md",
