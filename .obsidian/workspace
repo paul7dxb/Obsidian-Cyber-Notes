@@ -89,6 +89,8 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
+    "Windows/Active Directory Theory.md",
+    "Services/Kerberos - 88.md",
     "Protocols/Samba.md",
     "Protocols/SSH.md",
     "Protocols/SMB.md",
@@ -96,8 +98,6 @@
     "Tools/Unorganised.md",
     "Linux/Commands/Curl.md",
     "Linux/Commands/cut.md",
-    "Linux/Commands/Extracting Files.md",
-    "Linux/Commands/grep.md",
-    "Linux/Commands/Other commands.md"
+    "Linux/Commands/Extracting Files.md"
   ]
 }
