@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Languages/PowerShell/Powerview.md",
+            "file": "Services/Kerberos - 88.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xfreer",
+                "query": "smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/PowerShell/Powerview.md",
+                "file": "Services/Kerberos - 88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Languages/PowerShell/Commands.md",
-    "Linux/Connections.md",
-    "Windows/Active Directory Theory.md",
-    "Windows/Active Directory Offensive.md",
-    "ZZ - Obsidian stuff/Obsidian notes.md",
-    "Windows/cmd line.md",
-    "Z Theory/Red Team.md",
-    "1. Discovery/Web/Python fuzzing.md",
-    "ZZ - Pasted Images/Pasted image 20221005065401.png",
-    "ZZ - Pasted Images/Domain Trust Relationship.png"
+    "Protocols/Samba.md",
+    "Protocols/SSH.md",
+    "Protocols/SMB.md",
+    "Services/SMB - 139, 445.md",
+    "Tools/Unorganised.md",
+    "Linux/Commands/Curl.md",
+    "Linux/Commands/cut.md",
+    "Linux/Commands/Extracting Files.md",
+    "Linux/Commands/grep.md",
+    "Linux/Commands/Other commands.md"
   ]
 }
