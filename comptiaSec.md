@@ -438,8 +438,49 @@ Change Management Lifecycle
 - Disaster recovery sites
 
 ## SSL / TLS Inspection
+- Secure Sockets Layering
+- Transport Layer Security
+	- 0 Keep up to date
+	- 1 Conrol browsers that can connect
+	- 2 Perfrom certficate revocation checks
+	- 3 Verify encryption
+	- 4 Use trusted authorities
+	- 5 Pinning and OCSP stapling
+
+## Hasking and API
+- Crypto strength is half of key length
+- Apply forward secrecy
+- AES-256-GCM has built in hash authentication
+- API Consideration
+	- 0 Digitally sign API calls
+	- 1 Do not embed credentials
+	- 2 Only connect to trusted sources
+	- 3 Protect secret keys
+	- 4 Secure codign practices
+
+## Site Resilliency
+- Site resilience
+- Capacity of a network to recover and continue operations
+	- 0 Cold site - power only
+	- 1 Warm site - some hardware, wired ethernet, some personnel
+	- 2 Hot site (mirrored) - parallel site, enough duplicate hardware/software
+	- 3 Mobile site
+	- 4 Hybrid cloud
+
+## Deception and Disruption
+- Honeypots
+- Honeynet
+- Honeyfiles. Mainly used to catch privileged insider
+- Fake telemetry
+	- 0 Use trap assets
+	- 1 fake data
+	- 2 no legit person should be accessing these
+	- 3 DNS sinkhole
+
 
 Things to look at
 Warning levels (4 warning)
 SOAR - 
 Cloud Access Security Broker CASB
+
+AEAD Authenticated Encryption with Associated Data - AES-256-GCM
