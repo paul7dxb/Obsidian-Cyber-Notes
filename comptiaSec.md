@@ -377,9 +377,69 @@ Change Management Lifecycle
 - Reporting
 
 ## Data Sovereignty
+- Sensitive data in different jurisdications or global regions
+- ITAR (International Traffic in Arms Regulations)
+- Export Administration Regulation (EAR)
 
+- Cloud computing Geolocation
+	- 0 May need to restrict cloud usage dependant on region
+	- 1 MAy need to use cloud physically located in specific region
 
+## Data Protection
+- Steps to protect data
+- Labeling
+- Handling
+- Least privilege
+- Data at rest vs data in motion
+- Tokenization of mobile devices
+	- 0 Enterprise Mobility Management = MAM + MDM (Mobile Application Management) (Mobile Device Management)
+- Manage the loss and leakage beyond established domain
+- Redacting
+
+- Data
+- Can leak
+- To an outsider
+- Resulting in a breach
+
+## Hardware Security Module
+- Crypto processor
+- Haredened and tamper resistence
+- Manage, process, generate and store keys for PKI, SSH
+- Verify digital certificates
+
+## Geographical Considerations
+- Where to store offsite data and backups
+- Cloud HSM may not be allowed and need pysical HSM on site
+- Legal considerations for area
+- Consideration
+	- 0 Jurisdiction
+	- 1 Privacy laws
+	- 2 Import-export restrictions
+	- 3 Cryptography
+
+## Cloud Security Brokers
+- Cloud Access Securiity Brokers
+	- 0 Between customer and
+	- 1 SAAS - Software as a service
+
+## Response and Recovery Controls
+- Risk Response
+	- 0 Accept
+	- 1 Mitigate
+	- 2 Transfer/share
+	- 3 Avoid (avoid actions that introduce risk)
+- Security guards
+- Incident Response Team
+- Computer Security Incident Response Team (CSIRT)
+- Backups and snapshots
+- Remote wiping mobiles
+- Recovery plans
+- Determin RTO and RPO (Recovery Time/Point Objective)
+- Disaster recovery sites
+
+## SSL / TLS Inspection
 
 Things to look at
 Warning levels (4 warning)
 SOAR - 
+Cloud Access Security Broker CASB
