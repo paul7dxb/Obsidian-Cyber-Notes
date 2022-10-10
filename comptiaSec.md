@@ -477,6 +477,24 @@ Change Management Lifecycle
 	- 2 no legit person should be accessing these
 	- 3 DNS sinkhole
 
+# Implementing Cybersecurity Resilience
+
+## Redundancy Concepts
+- Passive. Uses additional capacity to reduce impact of component failures
+- Active. Similtaneous capacity in use. Hot/parallel sites
+- Geograpical dispersal
+- RAID (Redundant Array of Independent Disks)
+	- 0 RAID 0 - Data split between disks. No redundancy. Striping.
+	- 1 RAID 1 - Mirroring. Same data. Slow write
+	- 2 RAID 5 - atleast 3 drives. Striped with parity
+	- 3 RAID 6 - RAID 5 but with 2 parity data. webserver. Not for heavy writing
+	- 4 RAID 10 - mirroring and striping (1&2 stripe and mirror onto 3&4)
+
+	![image](https://user-images.githubusercontent.com/62883464/194934467-fa0fef9a-bb3f-45c4-a149-5199ca9db4e3.png)
+
+- Network Load Balancer
+	- 0 In cloud can grow horizontally
+- Redundant Power
 
 Things to look at
 Warning levels (4 warning)
