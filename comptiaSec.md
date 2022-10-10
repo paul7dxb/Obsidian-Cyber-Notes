@@ -309,7 +309,23 @@ CVSS
 	- 0 Detailed investigation of systems
 	- 1 often have full knowledge
 - Credentialed testing (given user account to use). Gives more comprehensive testing results
+ black box
+	- No prior knowledge to tester
+- White box
+	- Detailed investigation of internal logic
+	- Full knowledge of systems and network usually known
+- Greybox
+	- Some limited knowledge
+- Credentialed
+	- Give existing account (white/grey)
+- Intrusive / non intrusive
+- In line / promiscuous
 
 ## Pen Testing Fundamentals
 - Phases
-	- 0  
+	- ROE agreement
+	- Recon and engagement
+	- Priv esc
+	- Pivoting
+	- Persistence
+	- Clean up
