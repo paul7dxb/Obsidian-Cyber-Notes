@@ -326,6 +326,60 @@ CVSS
 	- ROE agreement
 	- Recon and engagement
 	- Priv esc
-	- Pivoting
+	- Pivoting / Lateral movement
 	- Persistence
 	- Clean up
+
+## Active Recon
+- Fingerprinting
+- Nessus
+- Burpsuite 
+- Banner grabbing
+- Port and address scanning
+
+## Priv esc
+- Check OS and kernel version
+- Check users and current privilege
+- List SUID files
+- View installed packages and services for vuln version
+
+## Exercise Teams
+- Purple team
+	- 0 Improving organisation
+- Blue team
+	- 0 Implementing controls
+	- 1 Incident response
+	- 2 Security monitoring
+
+# Security Concepts in Enterprise Environment
+
+## Configuration Management
+- Diagrams & Topologies
+- Baselines
+- Schemas
+- Naming and Tagging
+	- 0 Labelling laptops
+	- 1 Metadata labels
+
+Change Management
+- Changes should be logged
+
+Change Management Lifecycle
+- Submitting
+- Approving
+- Documenting
+	- 0 Configuration Management Database (CMDB)
+- Testing
+- Implementing
+	- 0 Schedule of change
+	- 1 Milestones
+	- 2 Automation through orchestration software
+- Reporting
+
+## Data Sovereignty
+
+
+
+Things to look at
+Warning levels (4 warning)
+SOAR - 
