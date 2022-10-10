@@ -300,5 +300,16 @@ CVSS
 	- 5 notice
 	- 6 information
 	- 7 Debug
-- Sdouldn't be single point of failure
+- Shouldn't be single point of failure
 - 
+
+## Pen Testing Terminology
+- Black box is testing without any prior knowledge
+- White box
+	- 0 Detailed investigation of systems
+	- 1 often have full knowledge
+- Credentialed testing (given user account to use). Gives more comprehensive testing results
+
+## Pen Testing Fundamentals
+- Phases
+	- 0  
