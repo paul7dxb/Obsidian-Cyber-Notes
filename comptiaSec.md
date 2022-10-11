@@ -711,6 +711,43 @@ OWASP top10 IoT
 - SSAE Standards for Attestation Engagements 16
 - ISAE International Standard on Assurance Engagements 3402
 
+# Controls & Application Development & Automation
+
+## Categories of Controls
+- NIST SP 800-53
+	- Managerial
+		- Administrative controls
+		- Published in policies
+		- Training programmes
+	- Operational
+		- Change and configuration management database
+		- Conducting training
+		- Physical and environmental controls
+		- incident response
+		- disaster recovery
+	- Technical
+		- Security mechanisms that systems run
+		- CIA protections
+
+## Types of Controls
+- Preventative
+	- Counter measure from atttacker delivering payload
+	- IPS
+- Detective
+	- ID security violations
+	- IDS
+- Corrective
+	- React to detection to eliminate opportunity
+- Deterrent
+	- Warnings of consequences
+	- Presence of other controls can be a deterent
+- Compensating
+	- Assist other controls
+	- Data loss prevention to email agent
+
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011092755.png)
+
+
 
 # Things to look at
 Warning levels (4 warning)
@@ -718,3 +755,9 @@ SOAR -
 Cloud Access Security Broker CASB
 
 AEAD Authenticated Encryption with Associated Data - AES-256-GCM
+
+Infrastructure as code
+
+Function as a service (AWS lambda)
+
+HSM - Hardware security modules??
