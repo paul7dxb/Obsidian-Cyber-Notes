@@ -66,3 +66,9 @@ wget -m [url]
 ```bash
 apt update && apt upgrade
 ```
+
+### Mount a drive
+```bash
+mkdir /mnt/ChromeOS
+mount -o loop image.img /mnt/ChromeOS/
+```

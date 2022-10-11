@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 249.5
   },
   "right": {
     "id": "cb8f24b6a65ae567",
@@ -89,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
+    "Y - Online notebooks/Cybersec WikiMandine.md",
     "Linux/Commands.md",
+    "Services/2049 NFS.md",
+    "ZZ - Obsidian stuff/Obsidian notes.md",
+    "comptiaSec.md",
     "Services/Kerberos - 88.md",
     "Windows/Active Directory Theory.md",
     "Protocols/Samba.md",
     "Protocols/SSH.md",
-    "Protocols/SMB.md",
-    "Services/SMB - 139, 445.md",
-    "Tools/Unorganised.md",
-    "Linux/Commands/Curl.md",
-    "Linux/Commands/cut.md"
+    "Protocols/SMB.md"
   ]
 }

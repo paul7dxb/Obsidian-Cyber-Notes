@@ -844,9 +844,49 @@ OWASP top10 IoT
 - ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011182007.png)
 
 ## Directory Services
+- AD components
+	- Schema
+		- Limits, formatting of naming convention
+	- Global catalog
+		- Global catalog of all objects
+	- Query and indexing service
+	- Service to replicate data across network
+		- DC
 
+- LDAP
+	- Lightweight Directory Access Protocol
+	- Often used for accesss to management app and browsers
 
+- Securing the directory
+	- Least privilege
+	- Pysical security
+	- Seperate admin accounts
+	- Just in time admin passwords
+		- Laps tool
+	- Azure Advanced Threat Protection (ATP)
+	- MFA (Multi Factor Authentication) for admin / power users
+	- TLS IPSec for data in transit
+	- CASB (Cloud Access Security Broker)
 
+## Federation and Attestation
+- Trust between ID provider (AD) and some service
+- Attestation using tokens
+
+## Authentication Technologies
+- 2FA
+	- Time based one time password
+	- Software based token (google authenticator)
+	- HOTP (HMAC based one time password)
+	- SMS
+	- Token key
+- Static Codes
+- Authentication applications like lastpass
+- Push Notifications
+
+## Smart Card Authentication
+- From of 2FA
+- Contact card to host computer
+	- Common Access Card (CAC)
 
 
 
