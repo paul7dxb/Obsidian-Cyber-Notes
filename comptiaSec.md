@@ -747,6 +747,108 @@ OWASP top10 IoT
 
 ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011092755.png)
 
+## Secure Application Environments
+- Secure by design
+	- SDLC - Secure development life cycle
+- Secure by Deployment
+	- Put into an environment where security is in network
+	- Air gapped
+- Secure by default
+	- Disabling insecure functions
+
+## Provisioning and Deprovisioning
+- Providing or removing software access on an as needed basis
+- Prevent privilege creep
+- Enablers
+	- automation
+	- auto sclaing
+	- VMs and containers
+	- rapid deployment agile, spiral
+	- Hybrid as a cloud
+
+## Integrity Measurement
+- NIST SP 800-155 - BIOS integrity
+- Check for digitially signed codes and programs
+- Use Linux IMA (Integrity measurement architecture) subsystem
+	- Kernel hashes of files
+- Trusted Computing Base Solutions (TPM)
+- Execution validation
+- WS-Secuirity (WSS)
+	- SOAP extension
+	- Allows commuinication of authentication formats
+
+## Secure Coding Techniques
+- Normalization
+	- error handling
+	- Input validation
+- Camoflage / obfuscation
+- Dead code
+	- remove unneccessar code
+- Memory management
+	- Counter buffer overflow
+	- Memory leak
+		- NX bit (never execute)
+		- Address space layout randomisation (ASLR)
+- Data exposure
+	- Abstract origianl data. Act on a view of the original data
+	- Access control and least privilege
+	- Sign API calss
+	- Emply DLPs (Data Loss Prevention)
+- Stored procedures
+
+## OWASP for Application Development
+- Open Web Application Security Project
+- OWASP MSTG (mobile secuuirty testing guide)
+
+## Software Diversity
+- Methodology where two or more functionally duplicate versions are developed from same specification
+- Made by different teams
+- Low level code is more liekly to be exploited
+- Diversity decreases attack surface size
+
+## Automation and scripting in application developement
+- Continuous monitoring
+- Validation
+	- Finding bugs
+- Integration
+	- Tools to run code analysis tests
+- Delivery
+- Deployment
+	- Containers
+	- Functions as a service
+
+
+# Authentication & Authorization Design Concepts
+
+## Authentication, Authorization and Accounting (AAA)
+- Authentication
+	- Validate identity
+	- Origin (origin of packet)
+		- Follow up with more advanced layers of authentication
+- Authorization
+	- Granting authenticated entity permission
+- Accounting
+	- Billing and chargeback
+		- Budgets
+	- Auditing and reporting
+
+## Character vs Packet Mode
+- Network authenticing device
+- Character
+	- Send keystrokes to network device
+	- Configuring and commands
+- packet mode
+	- Interface mode or link protocol session
+	- Communicate with device on other side of authenticating device
+	- Midiated access
+- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011182007.png)
+
+## Directory Services
+
+
+
+
+
 
 
 # Things to look at
