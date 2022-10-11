@@ -496,7 +496,223 @@ Change Management Lifecycle
 	- 0 In cloud can grow horizontally
 - Redundant Power
 
-Things to look at
+## Replication Methods
+- SAN: Storage Area Network
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011054353.png)
+	- IPsec AH for integrity and origin authentication for data in transit
+	- Encrypt with AES-256-GCM
+- Virtualisation
+	- Hypervisors control interaction between VMs and 
+	- Type 1 - bare metal
+	- Type 2 - hosted hypervisor on OS (ontop of Windows)
+	- Vulnerabilities
+		- VM sprawl
+		- VM escape. Interacts directly with host OS or hypervisor
+	- Containers
+		- Isolated abstracted applications
+		- Package up applications with all dependencies as a package
+		- Consistent experience
+		- Immutable
+		- Docker / Kubernetes
+
+## Backup Types
+- Full backup
+- Incremental backup
+	- Only archive bit set, new or updated file
+	- Clears archive bit onve backup complete
+	- Slowest to restore, need all backups
+- Differential backup
+	- Does not clear archive bit once complete
+	- Last full backup and most recent differential needed
+- Snapshot
+	- Immediate point in time copy
+	- Improved RTO and RPO
+
+## Non-persistence Concepts
+- Revert to known state
+- Last known good config (before win 10)
+- Live boot media
+	- Security threat if regular users can live boot
+
+## High Availability Concepts
+- Availability
+	- System uptime
+	- Ability to access
+- Durability
+	- Long term data protection: degregation
+	- 11 9's to 16 9's
+- Scalability
+	- Ability to increase workload on current hardware
+	- Scale up
+- Elasticity
+	- Ability to increase workload on its current and additionally added on demand hardware resources
+	- Scale out
+
+## Order of Restoration
+- Repair hard drive
+- Image drive to new disk image file
+- Recovery of files from clone
+- Repair damaged files
+
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011060645.png)
+
+- DRP Restoration
+	- Protect people and critical assets
+	- Sustain ongoing operational viability
+	- Financial stability
+	- Deliver profitability
+
+## Diversity Concepts
+Avoiding single point of failure:
+- Technologies
+- Vendors
+- Cryptosystems
+- Controls
+
+# Virtualization, Cloud computing & Cloud Cybersecurity
+
+## Virtualization basics & VM Security
+- Hypervisors
+	- Software that makes and manages virtual infrastructure
+	- Controls resources
+- Type 1 Hypervisor
+	- Bare metal / metal
+	- Blade / rack mounted
+- Type 2 Hypervisor
+	- Host OS on top of hardware
+	- Hypervisor on top of OS
+- Vulnerabilites
+	- VM Sprawl
+		- Number of VM's becomes unmanageable
+		- Enforce strict policy including who can deply VM's
+	- VM  escape
+		- Guest VM interact with host VM in unintended way
+
+## Cloud Models
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011064719.png)
+- Cost saving 
+- Elasticity and Agility
+- Broad Access
+- IaaS
+	- Processing, storage and networks for arbitrary software
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011064445.png)
+- PaaS (Platform as a service)
+	- Consumer doesn't manage cloud infrastructure
+	- Development platforms
+	- Container services
+	- Managed databases
+	- Security
+- SaaS (Software as a service)
+	- Use provider's applications on cloud
+	- Usually interact with application through a browser
+- Private cloud
+	- Personal information, credit card info
+- Public cloud
+	- For customer consumption
+- Community cloud
+- Hybrid cloud
+
+## Cloud Service Provider
+- MSSP (Managed Security Service Provider)
+	- Outsourced security monitoring and management
+- Fog Computing
+	- Place resources close to where they are needed
+- Microservices
+	- Small self contained form part of larger applications with API
+	- Modular and independantly deployable
+
+## Infrastructure as Code
+- Use template language e.g YAML or JSON
+
+## Containerisation
+- Include all components needed
+- Portable
+- Libraries can be across containers
+- Replace container instead of updating
+- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011073438.png)
+- Docker vs Kubernetes
+	![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011073527.png)
+
+Use docker to deploy and then kubernetes to scale after deployment
+
+## Serverless Architecture
+- CSP handles all server overhead
+- Services Integration
+	- Take value of delivered services
+	- Integration platform software
+		- Handle complex integration
+	- iPaaS
+		- Integration Platform as a Service
+	- SaaS vendor tooling
+		- plug ins integrate between application
+	- Custom coding
+		- Team creates integration
+	- Function Platform as a Service (fPaaS)
+		- Create suite of integration tools
+
+## Transit Gateways
+- Connect on premise networks to single component
+- Connect different VPNs
+- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011074047.png)
+
+## Cloud Storage Security
+- Block and object storage
+- Secrets Management
+- Data publicly access through URL or API calls
+- data in rest can be server side encrypted
+- Can use client side encryption and send to service
+- High availablilty and fault tolerence
+
+## Cloud Network Security
+- Public or private subnets
+- DDoS solutions
+- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011080841.png)
+- WAF with deep packet inspection
+- Site to site VPN's
+
+## Cloud Compute Security
+- Private subnets and firewalls
+- Cloud functions enhance security
+- Single source of truth
+- Container secuirty by design
+
+OWASP top10 IoT
+- Weak passwords
+- Insecure network services
+- Insecure ecosystem interfaces
+- Lack os secure update mechanism
+- Insecure or outdated components
+- Insufficient privacy protection
+- Insecure data transfer
+- Lack of device management
+- Insecure default settings
+- Lack of physical hardening
+
+## Cloud Security Solutions
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221011083656.png)
+
+- CASB (Cloud Access Security Brokers)
+	- software between cloud customer and SaaS
+	- On premise or cloud
+	- Acts as a gatekeeper
+- Next Generation Secure Web Gateway (SWG)
+	- Protects from cloud enabled threats
+	- Web content filtering
+	- Data loss protection
+	- ATP
+- Audit processes
+	- Transparency
+	- collocation
+	- Scale
+	- Scope
+	- Security and privcay
+	- Complexity
+- SAS Statement on Auditing standards 70
+- SSAE Standards for Attestation Engagements 16
+- ISAE International Standard on Assurance Engagements 3402
+
+
+# Things to look at
 Warning levels (4 warning)
 SOAR - 
 Cloud Access Security Broker CASB
