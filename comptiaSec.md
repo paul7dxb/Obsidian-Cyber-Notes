@@ -1030,11 +1030,74 @@ OWASP top10 IoT
 - RADIUS
 	- Remote Authentication Dial-In User Service
 	- Enables remote access server to communicate with central server to authenticate users and authorize
+	- Client server modfel
+		- client is a router or AP
+	- use shared secret between client and server ich is never sent over network. Only password is encrypted
+	- UDP 1812 (authentication)
+	- UDP 1813 (accounting)
+	- Earlier was 1645 and 1646
+	- RADIUS server sends authentication and what user can do back to client router
 
+## Authentication Protocols for Federation
+- SAML (Security Assertions Markup Language)
+- OAuth
+- (OIDC) OpenID Connect
+- Shibboleth
+- Kerberos
 
+- SAML (Security Assertions Markup Language)
+	- Based for web pages
+	- XML based
+	- SOAP simple object access protocol
+	- Open source
+	- Used with SaaS
+	- Identity provider gives assertion and gives to service provider
+- OAuth
+	- JSON
+	- publish and iteract with protected data
+- (OIDC) OpenID Connect
+	- Identity layer on top of OAuth
+	- Verifies end user ID
+	- Basic profile info
+	- Web based, mobile and JS
+	- Extensions can be added
+- Shibboleth
+	- Inter/intraorganisational connection
+	- univeristy / public
+- Kerberos
+	- AD 
+	- Replaced NTLM
+	- Ticket
+	- Mutual authentication
+	- All communication encrypted
+	- KDC Key Distribution Center 3rd party
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012125141.png)
+	- 
 
-
-
+## Access Control Schemes
+- (DAC) Discretionary Access Control
+	- Restricts access to data based on identity or group
+	- Usually owner can change permissions
+- RBAC (Role based Access Control)
+	- Based on org chart, roles and responsibilities
+	- Framework set by admins not user
+	- Negatives
+		- Scope creep
+		- Roles must be audited
+		- Multi tenancy capabilities need AD OUs
+- (RB-RBAC) Rule Based Access Control
+	- Dynamically assigned roles
+	- Can be time based (e.g access only 6-6 mon - fri)
+	- Common in routers, switches
+	- Stateless or stateful
+	- `access-list 100 permit tcp any IP eq ftp-data`
+- (MAC) Mandatory Access Control
+	- Strict non-discretionary model
+	- Subjects and Objects
+	- Assigns sensitivity labels
+	- "need to know"
+		- minimise scope creep
+		- Bell-LaPadula
 
 
 
