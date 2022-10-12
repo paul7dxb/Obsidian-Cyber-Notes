@@ -781,6 +781,7 @@ OWASP top10 IoT
 - Normalization
 	- error handling
 	- Input validation
+	- Ensure there is no data redundancy and similar components are stored together
 - Camoflage / obfuscation
 - Dead code
 	- remove unneccessar code
@@ -870,7 +871,7 @@ OWASP top10 IoT
 
 ## Federation and Attestation
 - Trust between ID provider (AD) and some service
-- Attestation using tokens
+- Attestation using tokens and assertions
 
 ## Authentication Technologies
 - 2FA
@@ -888,10 +889,88 @@ OWASP top10 IoT
 - Contact card to host computer
 	- Common Access Card (CAC)
 
+## Biometrics
+- Part of MFA (multi factor authentication)
+- Fingerprints
+- Facial Recognition
+	- non intrusive
+	- Principal Component Analysis (PCA)
+		- fast with low computational overhead
+- Retinal scan
+	- Invasive (close to eye piece)
+- Iris scan
+	- colour and size of pupil
+	- Camera technology with IR light
+	- **More widely accepted as a commericial modality**
+
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012054225.png)
+
+- Voice recognition
+	- Speech recognition
+	- Speaker recognition
+		- aural aspects of speech that are unique to person
+- Vein analyisis
+	- Palm, finger, retina
+- Gait analysis
+	- non invasive
+- Accuracy
+	- FAR: False acceptance rate (false positive)
+		- Number of false acceptance / number of authentication attempts
+	- FRR: False rejection rate
+		- Reject authentic user
+	- CER: crossover error rate
+		- Value of FAR and FRR when sensitivity is setup so FAR and FRR are the same
+		- Used to compare biometrics
+
+## Multi Factor Authentication
+- Something you know
+- Something you have
+- Something you are
+- ABAC: Attribute based 
+	- somewhere you are
+	- Something you can do (VPN connection, use root)
+	- Something you can exhibit
+
+## Cloud vs On-premise Authentication & Authentication
+- Cloud concerned with layer 3 and above
+- On premise starts at physical edge of campus
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012062220.png)
+
+
+# 10. Implementing Identity and Account Management & AAA Solutions
+
+## Identity Controls
+- IdP: Identity Providers
+	- system service that provides single set of login credentials that works over platforms
+		- Facebook ligin
+	- Uses translation and assertion services
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012063949.png)
+- 3 types of identity controls
+	- Tokens
+	- Assertions
+		- Azure Shared Access Signature
+		- SAML 2.0
+	- Certificates
+		- X.509v3
+
+## Acount Types
+- User
+- Guest & generic
+- Shared accounts and credentials
+- Service and application accounts
+
 
 
 
 # Things to look at
+SOAP injection - XML
+
+bluesnarfing - bluetooth prank
+blujacking - bluetooth steal data
+dragonblood - timing based side channel attack against WPA3
+
+DNS hijacking
+
 Warning levels (4 warning)
 SOAR - 
 Cloud Access Security Broker CASB
@@ -903,3 +982,9 @@ Infrastructure as code
 Function as a service (AWS lambda)
 
 HSM - Hardware security modules??
+
+WS Security: SOAP extension published by OASIS used to enforce web confidentiuality and integrity security
+
+Amazon web service: **Cognito** Create SSO solutions
+
+HOTP
