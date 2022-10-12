@@ -954,10 +954,92 @@ OWASP top10 IoT
 		- X.509v3
 
 ## Acount Types
-- User
-- Guest & generic
-- Shared accounts and credentials
-- Service and application accounts
+- ACcount Types
+	- User
+	- Guest & generic
+	- Shared accounts and credentials
+	- Service and application accounts
+	- Energency (fallback) account
+		- RADIUS
+- Rootkits can create and install hidden accounts
+- Dual operator pronciples for certain activities
+	- Two different accounts to perform an action
+
+## Common Account Policies
+- IAM
+	- Identity and Access Management
+
+## Advanced Account Policies
+- Geofencing and geolocation
+	- Device useage by location
+- May disable
+	- Geolocation from metdata
+- Mobile Device Management (MDM)
+	- Time of day restricitons
+	- GPS tags
+- Risk based attribute based access control (ABAC)
+	- fine grained authorization
+		- Policy and attributes for that policy (limitations (value of transfers))
+
+## Authentication Mangement
+- Key management is main vulnerability to cryptosystems
+- AUP: Acceptable Use Policy
+- Password vault == Password Manager
+- Trusted Computing (TC) and Trusted Execution Environments (TEE)
+	- TPM: Trusted Platform Modue
+		- module embedded in a system
+		- tamper resistent
+	- SED: self encrypting drive
+		- aka Full disk encryption
+		- Cannot be turned off
+		- Less susceptable than software based
+	- HSM: dedicated crypto processor
+		- Hardware Security Module
+		- Physcial or virtualised (HSA: hardware security abstraction)
+- KBS: Knowledge based authentication
+	- secuirty questions
+	- Info that only user can know
+	- Dynamic KBA
+		- Generate questions from credit history or public records (out of wallet)
+
+## Common Authentication Protocols
+- PAP: Password Authentication Protocol
+	- Authentication phase before network layer
+	- First send LCP during MAC establishment
+	- 2 way hand shake
+- MS-CHAPv2
+	- Challenge Authentication Protocol
+	- Secure PPP in a tunnel
+		- Uses GRE Generic routing encapsulation
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012073558.png)
+	- Use weak 56 bit DES encryption
+- IEE 802.1x (PNAC)
+	- Port based network access control
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012073707.png)
+	- Initially send out EAPOL frames
+		- Extensible Auithentication protocol over the LAN
+	- EAP
+	- PEAP
+	- EAP-FAST (Cisco)
+	- EAP-TLS
+		- x509 certificates
+	- EAP TTLS (tunneling)
+		- Highest level of security
+		- Requires deplyment of certificates
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012074029.png)
+- RADIUS
+	- Remote Authentication Dial-In User Service
+	- Enables remote access server to communicate with central server to authenticate users and authorize
+
+
+
+
+
+
+
+
+
+
 
 
 
