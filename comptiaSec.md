@@ -968,6 +968,7 @@ OWASP top10 IoT
 ## Common Account Policies
 - IAM
 	- Identity and Access Management
+	- AWS uses Managed policies to assign permissions
 
 ## Advanced Account Policies
 - Geofencing and geolocation
@@ -986,9 +987,9 @@ OWASP top10 IoT
 - AUP: Acceptable Use Policy
 - Password vault == Password Manager
 - Trusted Computing (TC) and Trusted Execution Environments (TEE)
-	- TPM: Trusted Platform Modue
+	- TPM: Trusted Platform Module
 		- module embedded in a system
-		- tamper resistent
+		- tamper resistent security chip
 	- SED: self encrypting drive
 		- aka Full disk encryption
 		- Cannot be turned off
@@ -1099,6 +1100,285 @@ OWASP top10 IoT
 		- minimise scope creep
 		- Bell-LaPadula
 
+# 11. Physical Security Controls
+## Types of physical Barriers
+- 1 Residential Gate operation
+- 2 Commericial
+- 3 Industrial
+- 4 restricted access operation, supervisory
+
+## Cameras & Surveillance Methods
+- Industrial Comoflage
+	- Camoflage into areas
+	- Telephone tower looking like a tree
+	- Temporary building with high security ea underground
+
+## Personnel Controls
+- Guests register in
+- Robot Sentries
+	- cameras, sensors
+
+## Locking Mechanism
+- Preventative mechanism
+- Lock picking
+	- Tumblers in line with shear line
+	- Raking locks
+	- Brute forcing locks
+		- Hammers, firearms
+- Type os lock
+	- Key
+	- Warded
+	- Wafer/tumbler
+	- Pin tumbler
+	- Deadbolt
+	- Interchangeable core
+	- Combination
+	- Electornic combination
+	- Keyless (buttons / cipher)
+	- Smart lock
+		- Plastic card (hotel)
+	- Cable lock (laptop)
+
+## Fire Prevention and Suppression
+- Categories
+	- Prevention
+	- Detection
+	- Suppression
+- Fire Controls
+	- Type A: common combustable
+	- Type B: combustable liquids
+	- Type C: electrical
+	- Type D: Combustable metals
+
+## Types of sensors
+- Lighting
+- Photoelectric - break in light beam
+- Passive infrared
+- Vibration
+- Acoustical
+- Microwave
+- Electro-mechanical: break in circuit (door/window open)
+- Electrostatic - presence of human
+- Moisture / temperature detection - for server rooms to monitor environment
+
+## Secure Areas
+- Mantraps
+	- Only one open door at a time
+	- One person at a time to stop tailgaiting
+- Faraday cage
+- Cable runs and distribution frames need to be protected
+	- MDF rooms
+- Safes and vaults
+- Air gap
+- Hot and cold aisles
+
+## Secure Data Destruction
+Digital
+- Degaussing - removing magnetic field of physical drive, zeroise
+- Purging - software
+- Wiping - overwrite pseudorandom
+- Encryption
+
+Written form
+- Burning
+- Shredding
+- Pulping
+- Pulverizing
+- 3rd party
+
+# 12. Basic Cryptography & PKI
+
+## Symmetric vs Asymmetric
+
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012170138.png)
+
+CIA
+- Confid
+- Hiding data at rest
+- Integrity
+	- Ensure data hasn't been altered
+- Availability
+	- Protect systems from flooding
+- Non-repudiation
+	- Ensures original sender cannot deny sending data
+		- Digital signatures
+
+Layers
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012170359.png)
+
+Symmetric
+- Same key
+- Efficient and fast
+- Inexpensive computationally
+- Shorter key length
+- Key management more complex
+- DOes not scale well
+
+Asymmetric
+- Mathematically related pair
+- Efficient key management
+- Scalable
+- Longer key lengths
+- Slower and more computationally expensive
+
+
+## Characteristics of Cryptographic Keys
+- Keyspace = total number of mathematical possibilites in the set
+	- 2^n
+- Static
+	- Used for long period
+	- OSPF/BGP
+	- Multiople time
+- Session key
+	- Used for specific session
+	- cryptanalytic attacks more difficult
+- Ephemeral keys
+	- Used for one key establishment process
+	- Never stored in memory. Not retained
+- Key Stretching
+	- PBKDF2 / BCRYPT
+	- Password + salt many times
+- Kerberos 4096 iterations
+
+**Weaknesses of crypto:
+Key management and human implementation**
+
+
+## Block vs Stream Cipher Suites
+Block
+- Fixed blocks of data
+- Use padding
+- DES
+- 3DES
+- AES-CBC
+- AES_GBC
+- Blowfish
+- Cipher Block Chaining
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012174540.png)
+- Counter mode
+	- Generates pseudo random nonce
+	- Used once with a given key
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012174642.png)
+
+- Galois Counter Mode
+- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012174732.png)
+-  Authenticated Encryption Authenticated Decryption
+- Auth tag to give authenticity of data
+
+Stream data cipher
+- Xor with keystream bits
+- Faster
+- Fish
+- CryptMT
+- Scream
+- RC4
+
+
+AES
+- Replaced DES
+- Block cipher
+- CBC and GCM modes most common
+
+## Cryptographic Hasing
+- Strength is half of bit size
+- Avalanche effect - small change in input for big change in output
+
+- Use HMAC (Hashed Message Authentication Code) verify sender information
+	- Uses hashing (H) with secret key (MAC)
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012180036.png)
+HMAC for router updates
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221012180236.png)
+
+## Key Exchange Mechanisms
+- Asymmetric key exchange
+	- RSA
+	- Diffie-Helmen (DHKE)
+		- two parties over unsecure channel
+	- Elliptic curve DIffie-Helman
+		- Most efficient
+		- Smaller key with more strength
+	- Ephemeral Diffie-Helman
+		- Give forward secrecy
+		- Can also be used with elliptic curve
+
+## Modes of Operation
+- Crypto can be authenticated
+	- HMAC for origin authentication
+- GCM
+	- Only gives confidentiality
+- Some use counter
+- Ephemeral
+	- Forward secrecy
+- Perfect FOrward Secrecy
+	- IPSec
+	- Compromise of long term does not allow attacker to obtain past session keys
+- Lightweight cryptography
+	- Sensor networks
+	- IoT
+	- Lighter mechanisms needed
+
+## Advanced Cryptography Concepts
+- Digital certificates
+	- Authenticity, integrity and non repudiation
+	- Not offer confidentiality
+- Quantum computer
+	- qubits
+- Post quantum crypto
+	- Rsistant to attacks from quantum computer
+	- Lattice spaced crypto
+	- Increase size of keys
+- Quantum communications
+	- protect data
+	- QKD (Quantum key distribution)
+	- Decryption key sent in quantum state
+- Homomorphic Encryption
+	- Protect data in use
+	- Remains encrypted while being processed
+	- Algebraic system to allow operations to take place on it
+- Blockchain
+	- data, time and amount
+	- transactions verified
+
+## Common Use Cases and Limitations
+- Low power -> low latency and high resiliency
+	- lightweight crypto and elliptic curve
+- Confidentiality
+- Integrity
+- Obfuscation
+	- When someone knows underlying technology hiding crypto keys underneath
+- Authentication
+- Non repudiation
+
+Limitations
+- Speed
+- Size on suppported key space
+- Weak keys
+- Time
+- Longevity
+	- Longer used more likely to be brute forced
+- Predicability
+	- Weak passwords
+- Key reuse
+- Entropy
+	- Neutralise structure of output
+- Computational overhead
+
+## PKI
+
+
+## Types of Certificates
+
+
+## Core PKI Concepts
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1133,3 +1413,7 @@ WS Security: SOAP extension published by OASIS used to enforce web confidentiual
 Amazon web service: **Cognito** Create SSO solutions
 
 HOTP
+
+IEE 802.1xEOPL
+
+federation Protocols
