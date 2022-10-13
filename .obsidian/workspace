@@ -89,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Y - CompTia Sec/0. Glossary.md",
-    "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
-    "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
     "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+    "Tools/Wireshark.md",
+    "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+    "Y - CompTia Sec/0. Glossary.md",
+    "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
     "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
     "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md",
     "Y - CompTia Sec/3. Threat Actors, Intelligence Sources & Vulnerabilities.md",
     "Y - CompTia Sec/4. Security Assessment & Penetration Testing Techniques.md",
-    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
-    "Y - CompTia Sec/6. Implementing Cybersecurity Resilience.md"
+    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md"
   ]
 }
