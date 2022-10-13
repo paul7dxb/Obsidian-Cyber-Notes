@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+            "file": "Y - CompTia Sec/12 -.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+                "file": "Y - CompTia Sec/12 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Y - CompTia Sec/comptiaSec.md",
-    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+    "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
+    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
+    "Y - CompTia Sec/4. Security Assessment & Penetration Testing Techniques.md",
+    "Y - CompTia Sec/3. Threat Actors, Intelligence Sources & Vulnerabilities.md",
+    "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md",
     "Y - CompTia Sec/12 -.md",
-    "ZZ - Pasted Images/Pasted image 20221011054353.png",
-    "ZZ - Pasted Images/Pasted image 20221007072915.png",
-    "ZZ - Pasted Images/Pasted image 20221011060645.png",
-    "ZZ - Pasted Images/Pasted image 20221011064445.png",
-    "ZZ - Pasted Images/Pasted image 20220928184939.png",
-    "ZZ - Pasted Images/Pasted image 20220923205144.png",
-    "ZZ - Pasted Images/Domain Trust Relationship.png"
+    "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
+    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+    "Y - CompTia Sec/comptiaSec.md",
+    "ZZ - Pasted Images/Pasted image 20221011054353.png"
   ]
 }
