@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Y - CompTia Sec/comptiaSec.md",
+            "file": "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/comptiaSec.md",
+                "file": "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
     "Y - CompTia Sec/comptiaSec.md",
+    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
     "Y - CompTia Sec/12 -.md",
     "ZZ - Pasted Images/Pasted image 20221011054353.png",
     "ZZ - Pasted Images/Pasted image 20221007072915.png",
