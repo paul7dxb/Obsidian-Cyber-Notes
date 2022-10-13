@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "comptiaSec.md",
+            "file": "Y - CompTia Sec/comptiaSec.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "comptiaSec.md",
+                "file": "Y - CompTia Sec/comptiaSec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "54e17b685d0a6ca9",
   "lastOpenFiles": [
-    "Y - Online notebooks/Cybersec WikiMandine.md",
-    "Linux/Commands.md",
-    "Services/2049 NFS.md",
-    "ZZ - Obsidian stuff/Obsidian notes.md",
-    "comptiaSec.md",
-    "Services/Kerberos - 88.md",
-    "Windows/Active Directory Theory.md",
-    "Protocols/Samba.md",
-    "Protocols/SSH.md",
-    "Protocols/SMB.md"
+    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+    "Y - CompTia Sec/comptiaSec.md",
+    "Y - CompTia Sec/12 -.md",
+    "ZZ - Pasted Images/Pasted image 20221011054353.png",
+    "ZZ - Pasted Images/Pasted image 20221007072915.png",
+    "ZZ - Pasted Images/Pasted image 20221011060645.png",
+    "ZZ - Pasted Images/Pasted image 20221011064445.png",
+    "ZZ - Pasted Images/Pasted image 20220928184939.png",
+    "ZZ - Pasted Images/Pasted image 20220923205144.png",
+    "ZZ - Pasted Images/Domain Trust Relationship.png"
   ]
 }
