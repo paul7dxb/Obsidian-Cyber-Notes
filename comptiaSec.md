@@ -1364,14 +1364,169 @@ Limitations
 - Computational overhead
 
 ## PKI
+- Web of Trust
+- Trusted introducer
 
+![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013064111.png)
+
+- CSR: Certificate signing request
 
 ## Types of Certificates
+- X.509v3 format
+	- Version number
+	- Serial number
+		- Used to revoke certificates
+	- Signature algortihm ID
+	- Issuer name
+		- Could be CA in domain
+	- Valid to and from
+	- Subject name
+	- Public key infor
+		- algorithm
+		- public key
+	- Extensions
+	- Certificate signature and algorithm used
+	- Certificate extensions
+		- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013070226.png)
+		- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013070254.png)
 
+- Types of certificate
+	- Wildcard: Multiple sub domains
+		- \*.mycompany.com
+	- Subject Alternate Name (SAN)
+		- Additional names based on email, IP, DNS names
+	- Code signing
+		- Authenticate source and integrity of code
+	- Self signed certificates
+		- Used by root CAs
+	- Email (S/MIME)
+	- Machine / Computer
+		- Authenticate device to network
+	- User
+
+- Certificate Validation
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013070759.png)
 
 ## Core PKI Concepts
+- CA Trust model
+	- Single CA
+		- Directly provide certificates to everyone
+		- Always online
+	- Hierarchical
+		- Root CA and intermediate CAs
+		- Root can be online or offline
+			- Offline: apply certificates using removable media
+	- Revocation and suspension
+		- All keys have finties life due to brute force
+		- Revoked (permanent)
+		- Suspended (temporary): Can be reactivated
+			- Loss of device then found
+		- CRL Certificate Revocation List
+			- Issue by CA who issued CA
+			- Published periodically
+			- Time gap between CRL and client downloading
+		- OCSP (Online Certificate Status Protocol)
+			- List of not valid certificates
+			- Generated and published immediately
+			- Database can be queried 24/7
+	- Certificate Stapling
+		- Certificate containes a time-stamped OCSP response
+		- Owner pays for stapling
+	- Certficiate Pinning
+		- Allow list of digital certificates
+		- Only pinned certificates are trusted
+		- Used in hostile enironment or need to be 100% sure of remote host identity
+	- Common cryto best practices
+		- Use trusted CA
+		- Validate certificate chains
+		- consider OCSP
+		- Key management
+		- MSSP (third party PKI management)
 
 
+# 13. Implementing Secure Protocols & Application Security Solutions
+
+## Types of Secure Protocols
+- DNSSEC (DNS Security Extensions)
+	- Protects from DNS attacks
+	- Systems detect DNS attacks
+	- Provides authentication (PKI)
+	- Provides integrity
+	- Does not provide confidentiality
+	- Root DNS server helps verify domain
+	- New record types
+		- RRSIG: crypto singature
+		- DNSKEY: public signing key
+		- DS: hash of DNSKEY record
+		- NSEC / NSEC3: explicit denail of existence
+		- CDNSKEY / CDS: CHild zone requesting updates to DS in parent
+- SSH (Secure Shell)
+	- SSH2 
+		- Uses symmetric encryption
+		- DH key exchange
+- S/MIME
+	- Email message security
+	- Digital signatures
+	- Encryption
+	- Triple wrapping
+		- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013075908.png)
+- Secure RTP
+	- Telephone
+	- Encryption, integrity and authentication
+- LDAPS (lightweight Directory Access Protocol)
+	- LDAP over SSL / TLS
+	- Port TCP 636
+	- SASL (Simple Authenication and Security Layer)
+- FTPS
+	- FTP with SSL/TLS
+	- Usually server to server
+	- AES, RSA/DSA and X509v3 certificates
+	- Ecplicit
+		- Selected parts encrypted
+	- Implicit
+		- All encrypted
+- SFTP
+	- FTP over SSH2 channel
+	- Both commands and data encrypted
+	- Platform independent
+	- Slower than SCP
+- SNMPv3
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013080417.png)
+- SSL/TLS
+	- Transport Layer Security
+	- Certificate based
+	- ![](ZZ%20-%20Pasted%20Images/Pasted%20image%2020221013080559.png)
+- HTTPS
+	- HTTP over SSL/TLS
+- POPS / IMAPS
+	- IMAPS port 993
+	- POP3 port TCP 995
+
+
+
+## Features of IPsec
+
+
+## Types of use cases
+
+
+## Endpoint Protection
+
+
+
+## Boot Integrity
+
+
+## Databse Security
+
+
+## Application Security
+
+
+## Hardening Concepts
+
+
+## Advanced Application Secuirty Techniques
 
 
 
