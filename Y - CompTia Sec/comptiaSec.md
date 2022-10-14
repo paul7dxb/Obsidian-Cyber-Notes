@@ -1,0 +1,26 @@
+- Seccurity Token generates time-sensitive passwords
+- RAID 0 no fault tolerence
+- dual-homed firewall has two network interfaces
+- Configuration validation for new equipment with new drivers etc.
+- Replace hub with switch to prevent traffic sniffing
+- SWG VPN
+	- point to point VPN that accepts secure HTTP
+- NIDS are low maintence
+- Biometrics CER quantify effectiveness
+- HIPS (Host based Intrusion Prevention system)
+- ISO
+	- 13 domains security in cloud computing
+- 3DES 48 rounds
+- Baselines for minimum security level
+- Recertification when someone moves job role
+- Received in email for who it is from
+- Basic errors found in development phase
+- Router most effiicient transmission of traffic NOT denied between networks
+- Risk Calculation
+	- ALE = SLE x ARO
+	- SLE = asset value x EF
+- WPA2 ENterprise is strongest security mode
+- Production honeypot
+	- mitigate risk to production systems
+- Research honeypot
+	- information gathering resources
