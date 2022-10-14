@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
+                "file": "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
+                "file": "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,7 @@
   },
   "active": "a646c7ccbe7680a7",
   "lastOpenFiles": [
+    "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
     "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
     "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
@@ -121,7 +122,6 @@
     "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
     "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
     "Tools/Wireshark.md",
-    "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md",
-    "Y - CompTia Sec/3. Threat Actors, Intelligence Sources & Vulnerabilities.md"
+    "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md"
   ]
 }
