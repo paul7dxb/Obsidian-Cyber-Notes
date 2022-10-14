@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+                "file": "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+                "file": "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +113,8 @@
   },
   "active": "a646c7ccbe7680a7",
   "lastOpenFiles": [
-    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
     "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
     "Y - CompTia Sec/4. Security Assessment & Penetration Testing Techniques.md",
