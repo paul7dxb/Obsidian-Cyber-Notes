@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "0b008e5f87745ea5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdd5ec3d231d1d29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a20485adae299fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y - CompTia Sec/0. Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a646c7ccbe7680a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc3ed10126ee8535",
+    "type": "split",
+    "children": [
+      {
+        "id": "78eb5a1f94528c1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82029f02a27a63b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43b57fa7f7208a24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "smb",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "cb8f24b6a65ae567",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eea4990bce663fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bef6bf70d545e437",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a646c7ccbe7680a7",
+  "lastOpenFiles": [
+    "Y - CompTia Sec/0. Glossary.md",
+    "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md",
+    "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
+    "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
+    "Y - CompTia Sec/4. Security Assessment & Penetration Testing Techniques.md",
+    "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
+    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
+    "Tools/Wireshark.md",
+    "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md",
+    "Y - CompTia Sec/3. Threat Actors, Intelligence Sources & Vulnerabilities.md"
+  ]
+}
