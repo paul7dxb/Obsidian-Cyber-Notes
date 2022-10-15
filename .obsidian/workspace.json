@@ -23,14 +23,15 @@
             "id": "a646c7ccbe7680a7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png"
+                "file": "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png",
+                "file": "Y - CompTia Sec/0. Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,16 +110,16 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "82029f02a27a63b6",
+  "active": "6a20485adae299fd",
   "lastOpenFiles": [
-    "ZZ - Pasted Images/Pasted image 20221007072915.png",
+    "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
+    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png",
+    "ZZ - Pasted Images/Pasted image 20221007072915.png",
     "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011060645.png",
     "ZZ - Pasted Images/Pasted image 20221005064817.png",
     "ZZ - Pasted Images/Pasted image 20220928184132.png",
     "ZZ - Pasted Images/Pasted image 20220928183259.png",
-    "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
-    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
     "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md"
   ]
