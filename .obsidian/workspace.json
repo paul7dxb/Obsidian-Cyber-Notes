@@ -23,11 +23,9 @@
             "id": "a646c7ccbe7680a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Y - CompTia Sec/comptiaSec.md",
-                "mode": "source",
-                "source": false
+                "file": "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png"
               }
             }
           }
@@ -90,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/comptiaSec.md",
+                "file": "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,16 +109,16 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a646c7ccbe7680a7",
+  "active": "82029f02a27a63b6",
   "lastOpenFiles": [
-    "Y - CompTia Sec/0. Thing to look at.md",
-    "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
-    "Y - CompTia Sec/comptiaSec.md",
-    "Y - CompTia Sec/8. Controls & Application Development, Deployment & Automation.md",
-    "Y - CompTia Sec/10. Implementing Identity & Account Management & AAA Solutions.md",
-    "Y - CompTia Sec/14. Implementing Secure Network Designs.md",
-    "Y - CompTia Sec/0. Glossary.md",
+    "ZZ - Pasted Images/Pasted image 20221007072915.png",
+    "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png",
+    "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011060645.png",
+    "ZZ - Pasted Images/Pasted image 20221005064817.png",
+    "ZZ - Pasted Images/Pasted image 20220928184132.png",
+    "ZZ - Pasted Images/Pasted image 20220928183259.png",
     "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
+    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
     "Y - CompTia Sec/15. Wireless, Mobile & Embedded Device Security.md"
   ]
