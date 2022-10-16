@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Glossary.md",
+                "file": "Y - CompTia Sec/comptiaSec.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2d28ad8b497de1c9",
+            "id": "145ddd13d15da971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "062c6d14504297a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y - CompTia Sec/0. Glossary.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2d28ad8b497de1c9",
+  "active": "145ddd13d15da971",
   "lastOpenFiles": [
+    "Y - CompTia Sec/comptiaSec.md",
+    "Y - CompTia Sec/20. Monitoring, Visibility & Reporting.md",
     "Y - CompTia Sec/0. Glossary.md",
+    "Y - CompTia Sec/19. Risk Management, Privacy & Sensitive Data Security.md",
     "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
     "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
     "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
     "Y - Walkthroughs/THM/Surfer.md",
     "Y - Walkthroughs/THM/dogcat.md",
-    "1. Discovery/nmap.md",
-    "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011054353.png",
-    "ZZ - Pasted Images/Pasted image 20221007072915.png",
-    "Y - CompTia Sec/Z. Pasted Images/Pasted image 20221011060645.png"
+    "1. Discovery/nmap.md"
   ]
 }

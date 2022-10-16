@@ -24,3 +24,4 @@
 	- mitigate risk to production systems
 - Research honeypot
 	- information gathering resources
+- SQL uses UDP 1434
