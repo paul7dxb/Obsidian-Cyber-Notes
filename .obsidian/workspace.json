@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Exam Qs.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/0. Exam Qs.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +124,9 @@
   },
   "active": "08b6c76764a3985c",
   "lastOpenFiles": [
+    "Y - CompTia Sec/0. Exam Qs.md",
     "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
     "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
-    "Y - CompTia Sec/0. Exam Qs.md",
     "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
     "Y - CompTia Sec/0. Thing to look at.md",
