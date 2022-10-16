@@ -13,38 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/comptiaSec.md",
+                "file": "Y - CompTia Sec/0. Exam Qs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "145ddd13d15da971",
+            "id": "1014660057df5ef9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "file": "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "062c6d14504297a7",
+            "id": "943a8fd628e76e51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Glossary.md",
+                "file": "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python3",
+                "query": "ocsp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "file": "Y - CompTia Sec/0. Exam Qs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "145ddd13d15da971",
+  "active": "08b6c76764a3985c",
   "lastOpenFiles": [
-    "Y - CompTia Sec/comptiaSec.md",
-    "Y - CompTia Sec/20. Monitoring, Visibility & Reporting.md",
+    "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
+    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
+    "Y - CompTia Sec/0. Exam Qs.md",
     "Y - CompTia Sec/0. Glossary.md",
-    "Y - CompTia Sec/19. Risk Management, Privacy & Sensitive Data Security.md",
-    "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
-    "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
-    "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
-    "Y - Walkthroughs/THM/Surfer.md",
-    "Y - Walkthroughs/THM/dogcat.md",
-    "1. Discovery/nmap.md"
+    "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
+    "Y - CompTia Sec/0. Thing to look at.md",
+    "Y - CompTia Sec/0. Study Guide.md",
+    "Y - CompTia Sec/comptiaSec.md",
+    "Z Theory/Red Team.md",
+    "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md"
   ]
 }
