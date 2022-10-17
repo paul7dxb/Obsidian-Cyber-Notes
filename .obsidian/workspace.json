@@ -20,30 +20,31 @@
             }
           },
           {
-            "id": "1014660057df5ef9",
+            "id": "e89ff4c4d8f660e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
+                "file": "Y - CompTia Sec/0. Practicals.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "943a8fd628e76e51",
+            "id": "d50693a00debd96a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
+                "file": "Y - CompTia Sec/0. Glossary.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ocsp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "file": "Y - CompTia Sec/0. Practicals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +123,15 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "08b6c76764a3985c",
+  "active": "e89ff4c4d8f660e3",
   "lastOpenFiles": [
+    "Y - CompTia Sec/0. Study Guide.md",
+    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/0. Exam Qs.md",
     "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
     "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
-    "Y - CompTia Sec/0. Glossary.md",
     "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md",
     "Y - CompTia Sec/0. Thing to look at.md",
-    "Y - CompTia Sec/0. Study Guide.md",
     "Y - CompTia Sec/comptiaSec.md",
     "Z Theory/Red Team.md",
     "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md"
