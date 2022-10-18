@@ -25,3 +25,5 @@
 - Research honeypot
 	- information gathering resources
 - SQL uses UDP 1434
+- RC4 cipher has bias flaws
+- 
