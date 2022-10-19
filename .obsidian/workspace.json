@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "file": "Linux/Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fbb18f7071893c13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ZZ - CTF/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
+                "file": "ZZ - CTF/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9dbe58eacd82ce28",
+  "active": "fbb18f7071893c13",
   "lastOpenFiles": [
-    "Y - CompTia Sec/0. Glossary.md",
-    "Y - CompTia Sec/0. Study Guide.md",
-    "Y - CompTia Sec/0. Practicals.md",
+    "Linux/Commands.md",
+    "Linux/Commands/cut.md",
+    "Linux/Connections.md",
+    "Y - CompTia Sec/16. Organizational Security Assessment Tools & Mitigation Controls.md",
+    "Linux/Commands/Curl.md",
+    "Languages/SQL/SQL Injections.md",
+    "Y - Walkthroughs/THM/Jurassic Park.md",
+    "Y - CompTia Sec/2. Analyzing Application & Network Attacks.md",
     "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
-    "Y - CompTia Sec/9. Authentication & Authorization Design Concepts.md",
-    "Y - CompTia Sec/comptiaSec.md",
-    "Y - CompTia Sec/0. Exam Qs.md",
-    "Y - CompTia Sec/12. Basic Cryptography & PKI.md",
-    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
-    "Y - CompTia Sec/1. Social Engineering Techniques & Other Attack Types.md"
+    "Z CTF/Forensics/Steganography.md"
   ]
 }
