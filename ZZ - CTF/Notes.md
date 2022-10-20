@@ -10,11 +10,63 @@
 	- linus torvalds
 	- JSON
 
-# Cipher
-- CE03
-	- flag and key
-	- flag numerical
-	- flag- 4870412d81d8af4b494c56462a4d684f24baee6f89627a995dfb6beccb404726e06ea8b99c9cbbe0b906ff5eec76ad602c85903f3e7f40156570cec56a19c244c3c69d9a00cbd4e9606288e1ea2e8b1f8bb1932d1ab67d0e9cb04de01adaac0a5e4558c90df8b519012d8d6a94a5c08e1d1dd81e07b8f2b6f87863290ad1c245530fa9894d9be8c8d2a1d8325a9bf1015180d3247130f170b3f5325c290f75b8eb2cf983443df33eedd6164c308674f21d6e47284983fc7132d056c1b34acc9c3d0bf62f9ea94e7f0cda7ab4d91d92089ccdcb1644f8390ddc27ef27f759870a53910a7407ea8c0896c73fd7841c2f75515512e0a6d4b912cd540b4c444c87a7
-	- key
-		- iamakeykeykeykey
+- wm03
+	- API
 
+- wh01
+	- LFI 2
+	- \n bypass filter
+
+- wh02
+	- get lost
+
+- wx01
+	- Cereal who are you
+	- B64 data in cookie
+
+# Network
+
+- NM03
+	- PCAP DNS
+- NM07
+	- PCAP
+- NH  03
+	- PCAP
+	- 5 hex value per line changing
+
+
+Port 8008
+
+ Location: https://:8010/nice%20ports%2C/Tri%6Eity.txt%2ebak
+
+
+# Binary
+
+- bm03
+	- Start address
+	- └─$ objdump -f program 
+		program:     file format elf32-i386
+		architecture: i386, flags 0x00000150:
+		HAS_SYMS, DYNAMIC, D_PAGED
+		start address 0x00001710
+
+# Forensics
+
+- fe04
+	- recover flag from corrupted file
+- fe06
+	- DOll maker image with message
+	-  Matryoshka Box
+	- matryoshka Box
+	- After end of file
+		- ad d9 db 88 bd c8 ce 9b b7 c2 d0 cf bf c3 da cf bc cc dc 9a ad c5 d5 8e
+		- add9db88bdc8ce9bb7c2d0cfbfc3dacfbcccdc9aadc5d58e
+- fm02
+	- Recover flag from images
+
+### Complete
+- fm01
+	- Note: All employees MUST use passwords that include at least one capital and one digit.
+	- unzip
+	- zip2john
+	- john -w=wordlist hash
