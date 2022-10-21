@@ -2,6 +2,8 @@
 
 - we02
 	- View source
+	- https://ggcs-we02.allyourbases.co/component---src-pages-index-js-fee2ee12421991017ca0.js
+	- https://ggcs-we02.allyourbases.co/component---src-pages-index-js-b41975d5a1f03391fee1.js
 
 - wm02
 	- linus torvalds
@@ -11,7 +13,15 @@
 	- API
 	- POST
 		- https://oo5apsmnc8.execute-api.eu-west-1.amazonaws.com/stag/wm03
-	- 
+	- `curl -X POST -F "submit:<value>" -F "<file-parameter>:@<path-to-file>" <site>`
+	-             var apigw = lambda_endpoint.concat(domain)
+            $.ajax({
+                type: "POST",
+                url: "https://oo5apsmnc8.execute-api.eu-west-1.amazonaws.com/stag/wm03",
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    'getUser': 1
+                }
 
 - wh01
 	- LFI 2
@@ -33,6 +43,8 @@
 
 - fe04
 	- recover flag from corrupted file
+
+
 - fe06
 	- DOll maker image with message
 	-  Matryoshka Box
@@ -40,6 +52,8 @@
 	- After end of file
 		- ad d9 db 88 bd c8 ce 9b b7 c2 d0 cf bf c3 da cf bc cc dc 9a ad c5 d5 8e
 		- add9db88bdc8ce9bb7c2d0cfbfc3dacfbcccdc9aadc5d58e
+		- from base 16
+			- 4262814265365269377165733573879993893590086584015115376014
 	- 0061642064392064 6220383820626420  
 		6338206365203962 2062372063322064  
 		3020636620626620 6333206461206366  
