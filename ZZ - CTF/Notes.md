@@ -4,6 +4,7 @@
 	- View source
 	- https://ggcs-we02.allyourbases.co/component---src-pages-index-js-fee2ee12421991017ca0.js
 	- https://ggcs-we02.allyourbases.co/component---src-pages-index-js-b41975d5a1f03391fee1.js
+	- https://ggcs-we02.allyourbases.co/component---src-pages-else-js-b41975d5a1f03391fee1.js
 
 - wm02
 	- linus torvalds
@@ -35,11 +36,6 @@
 	- B64 data in cookie
 
 # Forensics
-
-- fe03
-	- GIF
-	- https://ctf-wiki.mahaloz.re/misc/picture/gif/
-
 
 - fe04
 	- recover flag from corrupted file
@@ -235,6 +231,10 @@ Port 8008
 	- Type=Object,Structure={[user_id=Tom][permitted=0],Size=2048user_id.contents_update: 
 	- Permitted =1
 		- VHlwZT1PYmplY3QsU3RydWN0dXJlPXtbdXNlcl9pZD1Ub21dW3Blcm1pdHRlZD0xXSxTaXplPTIwNDh1c2VyX2lkLmNvbnRlbnRzX3VwZGF0ZQ==
+- fianl 07
+	- password
+	- 
+
 
 - final08
 	- complete

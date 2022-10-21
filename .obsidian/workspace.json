@@ -20,36 +20,24 @@
             }
           },
           {
-            "id": "9dbe58eacd82ce28",
+            "id": "484e88734f824a6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZZ - CTF/Notes.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fbb18f7071893c13",
+            "id": "5a4f3cdf252cb477",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Z CTF/Forensics/Steganography.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2da694427134133a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/gdb.md",
+                "file": "Y - CompTia Sec/0. Glossary.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZZ - CTF/Notes.md",
+                "file": "Y - CompTia Sec/0. Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9dbe58eacd82ce28",
+  "active": "484e88734f824a6f",
   "lastOpenFiles": [
-    "2. Gain Access/Web/Web.md",
+    "Y - CompTia Sec/0. Practicals.md",
+    "Y - CompTia Sec/0. Study Guide.md",
+    "Y - CompTia Sec/0. Glossary.md",
     "ZZ - CTF/Notes.md",
+    "2. Gain Access/Web/Web.md",
     "Linux/Commands.md",
     "Tools/gdb.md",
-    "Y - CompTia Sec/0. Glossary.md",
     "Z CTF/Forensics/Steganography.md",
     "Z CTF/CTF Tools.md",
-    "Languages/Assembly.md",
-    "Linux/Commands/awk.md",
-    "Linux/Commands/cut.md"
+    "Languages/Assembly.md"
   ]
 }
