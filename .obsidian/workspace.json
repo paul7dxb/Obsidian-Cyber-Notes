@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e89ff4c4d8f660e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y - CompTia Sec/0. Practicals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "484e88734f824a6f",
+            "id": "5a4f3cdf252cb477",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5a4f3cdf252cb477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y - CompTia Sec/0. Glossary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "post",
+                "query": "eap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,17 +99,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "484e88734f824a6f",
+  "active": "5a4f3cdf252cb477",
   "lastOpenFiles": [
-    "Y - CompTia Sec/0. Practicals.md",
-    "Y - CompTia Sec/0. Study Guide.md",
     "Y - CompTia Sec/0. Glossary.md",
-    "ZZ - CTF/Notes.md",
-    "2. Gain Access/Web/Web.md",
-    "Linux/Commands.md",
-    "Tools/gdb.md",
-    "Z CTF/Forensics/Steganography.md",
-    "Z CTF/CTF Tools.md",
-    "Languages/Assembly.md"
+    "Y - CompTia Sec/0. Study Guide.md",
+    "Languages/Regex.md",
+    "Y - CompTia Sec/10. Implementing Identity & Account Management & AAA Solutions.md",
+    "Y - Walkthroughs/THM/Jurassic Park.md",
+    "Linux/Commands/grep.md",
+    "Linux/Commands/Other commands.md",
+    "Linux/Commands/zlib.md",
+    "Z Theory/RSA.md",
+    "Linux/Commands/Curl.md"
   ]
 }

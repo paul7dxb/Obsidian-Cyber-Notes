@@ -7,3 +7,8 @@ Extract files
 ```
 binwalk <file> -e
 ```
+
+Not extracting certain files
+```
+binwalk --dd=".*" file_name
+```
