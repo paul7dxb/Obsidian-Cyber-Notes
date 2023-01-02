@@ -13,50 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/20. Monitoring, Visibility & Reporting.md",
+                "file": "ZZ - Obsidian stuff/Obsidian Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fe72e6b4db2e2cf1",
+            "id": "cd1e5a48240fe8b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Exam Qs.md",
+                "file": "Y - CompTia Sec/0. Glossary.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "73f92ba333f4e03d",
+            "id": "c5230f1c3c4f0be4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Study Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d7212473ea95474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y - CompTia Sec/10. Implementing Identity & Account Management & AAA Solutions.md",
+                "file": "Y - CompTia Sec/0. Thing to look at.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nist",
+                "query": "cache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y - CompTia Sec/0. Exam Qs.md",
+                "file": "ZZ - Obsidian stuff/Obsidian Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,20 +119,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "fe72e6b4db2e2cf1",
+  "active": "d6fc9dfc523f8d96",
   "lastOpenFiles": [
-    "Y - CompTia Sec/20. Monitoring, Visibility & Reporting.md",
-    "Y - CompTia Sec/19. Risk Management, Privacy & Sensitive Data Security.md",
-    "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
+    "Links.md",
+    "1. Discovery/OSINT/OSINT Discovery.md",
+    "Y - CompTia Sec/0. Post Print.md",
     "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
+    "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
     "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
-    "Y - CompTia Sec/8. Controls & Application Development, Deployment & Automation.md",
-    "Y - CompTia Sec/5. Security Concepts in an Enterprise Environment.md",
-    "Y - CompTia Sec/0. Study Guide.md",
-    "Y - CompTia Sec/0. Exam Qs.md",
-    "Y - CompTia Sec/0. Glossary.md"
+    "Y - CompTia Sec/0. Glossary.md",
+    "Y - CompTia Sec/6. Implementing Cybersecurity Resilience.md",
+    "Y - CompTia Sec/0. Practicals.md",
+    "Y - CompTia Sec/0. Exam Qs.md"
   ]
 }

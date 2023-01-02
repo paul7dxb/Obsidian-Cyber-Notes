@@ -6,5 +6,12 @@
   "newFileFolderPath": "ZZ - Pasted Images",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "ZZ - Pasted Images"
+  "attachmentFolderPath": "ZZ - Pasted Images",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  }
 }
