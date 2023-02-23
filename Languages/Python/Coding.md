@@ -33,6 +33,7 @@ pos = ALPHABET.index(c)
 ```
 
 ### Regex
+
 [Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
 
 [Python regex docs](https://docs.python.org/3/howto/regex.html)
@@ -51,6 +52,7 @@ toBytes = bytes(a[0][1], 'utf-8')
 ```
 
 ## Splat / unpack
+
 Takes a tuple and unpacks the one tuple object into individual objects
 ```
 #Get a tuple
@@ -60,3 +62,18 @@ Takes a tuple and unpacks the one tuple object into individual objects
 #Gives
 1 , 2
 ```
+
+# Shebang
+
+- Tells operating system what program should be used to execute program
+
+```python
+#!/usr/bin/env python3
+```
+
+# Input
+
+```python
+name = input("what is your name?")
+```
+

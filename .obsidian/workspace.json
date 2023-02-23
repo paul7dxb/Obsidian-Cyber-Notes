@@ -8,42 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6fc9dfc523f8d96",
+            "id": "770a254d5c8a9f85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZZ - Obsidian stuff/Obsidian Git.md",
+                "file": "Languages/Python/Coding.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cd1e5a48240fe8b3",
+            "id": "3e8a9068aadd1cf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Glossary.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c5230f1c3c4f0be4",
+            "id": "428ad987b896d474",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y - CompTia Sec/0. Thing to look at.md",
+                "file": "Languages/Python/Coding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZZ - Obsidian stuff/Obsidian Git.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,17 +120,27 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d6fc9dfc523f8d96",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "3e8a9068aadd1cf1",
   "lastOpenFiles": [
-    "Links.md",
-    "1. Discovery/OSINT/OSINT Discovery.md",
-    "Y - CompTia Sec/0. Post Print.md",
-    "Y - CompTia Sec/17. Incident Response, Digital Forensics & Supporting Investigations.md",
-    "Y - CompTia Sec/18. Security Policies, Regulations, Standards & Frameworks.md",
-    "Y - CompTia Sec/13. Implementing Secure Protocols & Application Security Solutions.md",
-    "Y - CompTia Sec/0. Glossary.md",
-    "Y - CompTia Sec/6. Implementing Cybersecurity Resilience.md",
-    "Y - CompTia Sec/0. Practicals.md",
-    "Y - CompTia Sec/0. Exam Qs.md"
+    "Languages/Python/Coding.md",
+    "Git.md",
+    "PI.md",
+    "Languages/Web/JS.md",
+    "Welcome.md",
+    "Wordlists.md",
+    "VIM.md",
+    "tag1.md",
+    "ZZ - Obsidian stuff/Obsidian notes.md",
+    "Languages/Python/Python.md",
+    "Languages/Python/Selenium.md"
   ]
 }
